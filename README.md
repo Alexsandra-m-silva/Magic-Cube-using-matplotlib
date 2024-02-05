@@ -1,6 +1,7 @@
 # Install configurations for the environment using Anaconda Prompt
 Install pandas at https://pandas.pydata.org/ <br>
 Install matplotlib at https://matplotlib.org/stable/ <br>
+Install anaconda at https://www.anaconda.com/download <br>
 
 # Set your environment in Visual Studio using Anaconda Prompt
 $ conda create --name mycube python=3.8 <br>
