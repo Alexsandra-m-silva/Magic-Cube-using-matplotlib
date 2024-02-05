@@ -9,5 +9,8 @@ $ conda create --name mycube python=3.8
  $ conda env list
  $ conda activate nameofenv
  $ conda deactivate nameofenv
-Use the command 'jupyter lab' to open MagicCube.py
+
+# Install jupyter lab in your env
+$ conda install -c conda-forge jupyterlab
+Use the $ jupyter lab to open MagicCube.py in your local host
 
