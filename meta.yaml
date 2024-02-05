@@ -1,0 +1,20 @@
+package:
+ name: mypackage
+ version: 1.0.0
+
+source:
+ url: https://github.com/username/mypackage/archive/v1.0.0.tar.gz
+ sha256: <sha256 hash of the tarball>
+
+build:
+ number: 0
+ script:
+    - ./configure --prefix=$PREFIX
+    - make
+    - make install
+
+requirements:
+ build:
+    - gcc # Assuming the package requires the GCC compiler
+ run:
+    - some-runtime-dependency
